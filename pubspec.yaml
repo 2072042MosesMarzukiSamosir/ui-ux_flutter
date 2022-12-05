@@ -1,0 +1,39 @@
+name: 2072042mosesmarzukisamosir_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Exo 2
+      fonts: 
+        - asset: assets/fonts/Exo2Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Exo2RomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/Exo2Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Exo2RomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/Exo2RomanRegular.ttf
+          weight: 400
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansRomanBold.ttf
+          weight: 700
